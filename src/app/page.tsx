@@ -7,11 +7,13 @@ import SlickComponent3 from './SlickComponent3'
 import CustomSlider from './CustomSlider'
 import AiSlider from './AiSlider'
 import AutoPlay from './slickSurverSide'
+import ImageTest from './ImageTest.jsx'
+import CDNImageTest from './CDNImageTest'
 
 export default function Home() {
   return (
     <>
-      <SwiperComponent />
+      <CDNImageTest />
     </>
       )
 }
